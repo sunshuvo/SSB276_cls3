@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>HTML Practices by SSB</title>
+<head>
+<head/>
+
+<body>
+
+<pre>
+Class-3
+	History: TIM Berners 1991
+	Recent version of HTML version is 5.2 under main version 5
+	
+Template:
+	Structure: Type + [HTML_Start + (Head_Start + Head_End) + (Body_Start + Body_End) + Html_End]
+	
+	&#60;!DOCTYPE html&#62;	//HTML-5 document type set
+	&#60;html lang="en"&#62	//HTML language start
+		&#60;head&#62;	//HTML head_start. Will carry nesessary infromation about page and will support the body
+			&#60;meta charset="utf-8"&#62;	//HTML meta used to set document information like character set where utf-8 is most common character set.
+			&#60;title>Page name&#60;/title&#62;	//HTML title used to show page name in window tab
+		&#60;/head&#62;	//HTML head_end
+		&#60;body&#62;	//HTML body_start. Will carry main content which need to show in page
+		&#60;/body&#62;	//HTML body_end
+	&#60;/html&#62;	//HTML language end
+	
+	Control system:
+	Follow the system to update/redesign site as like, Ready > Revise > edit/delete/add > set another new version (1.0/1.1/2.1)
+	
+	
+Content:
+
+Element:(Condition: Startng tag[&#60;&#62;] + content + ending tag[&#60;/&#62;])
+	
+	&#60;h1&#62;Any Title&#60;/h1&#62;	//heading-1, used as paragraph title and possible text size will from large(h1) to small(h6).
+	Example
+		<h1>Headin-1</h1><h2>Headin-2</h2><h3>Headin-3</h3><h4>Headin-4</h4><h5>Headin-5</h5><h6>Headin-6</h6>	<hr>
+	
+	&#60;&#62;Any Title&#60;/p&#62;	//Paragraph, used to set type as paragraph, normally used for long text/paragraph
+	Example:
+		<p>This is a test paragraph collected from Lorem Ipsum: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><hr>
+	
+Tag: (Condition: Everything under staring tag[<>], no ending required)
+	
+	&#60;img src="images/note_class_3.png"&#62;	//insert image using link in SRC. Create a folder for all image.
+	Example:
+		<img style="width:20%;" src="images/note_class_3.png">
+	
+Attribute: (src, alt, lang, charset), An additional data which mostly used in tag.
+	
+	&#60;img src="images/flower.jpg" alt="Rose Flower"&#62;	//ALT used to auto SEO, to show a name when image link unavailable, to give accesibility.
+	Example:		
+		<img src="images/flower.jpg" alt="Rose Flower">	
+		
+Note: 
+	1. for dummy text use Lorem ipsum, it will help to not fall under copyright issues
+	2. for test don't use any commercial image, collect image from pexels.com or some free platform. Try to use low resulation image
+</pre>
+
+
+<body/>
+
+</html>

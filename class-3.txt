@@ -1,0 +1,39 @@
+Class-3
+	History: TIM Berners 1991
+	Recent version of HTML version is 5.2 under main version 5
+	
+Template: 
+	Structure: Type + [HTML_Start + (Head_Start + Head_End) + (Body_Start + Body_End) + Html_End]
+	
+	<!DOCTYPE html>	//HTML-5 document type set
+	<html lang="en">	//HTML language start
+		<head>	//HTML head_start. Will carry nesessary infromation about page and will support the body
+			<meta charset="utf-8">	//HTML meta used to set document information like character set where utf-8 is most common character set.
+			<title>Page name</title>	//HTML title used to show page name in window tab
+		</head>	//HTML head_end
+		<body>	//HTML body_start. Will carry main content which need to show in page
+		</body>	//HTML body_end
+	<!-- Comment -->	//HTML set comment to make language readable to everyone which will not show in page.
+	</html>	//HTML language end
+	
+	Control system:
+	Follow the system to update/redesign site as like, Ready > Revise > edit/delete/add > set another new version (1.0/1.1/2.1)
+	
+Content:
+	Element:(Condition: Startng tag[<>] + content + ending tag[</>])
+	<h1>Any Title</h1>	//heading-1, used as paragraph title and possible text size will from large(h1) to small(h6)
+	<p></p>	//Paragraph, used to set type as paragraph, normally used for long text/paragraph
+		
+	Tag: (Condition: Everything under staring tag[<>], no ending required)
+	<img src="images/flower.jpg">	//insert image using link in SRC. Create a folder for all image.
+	
+	Attribute: (src, alt, lang, charset), An additional data which mostly used in tag.
+	<img src="images/flower.jpg" alt="Rose Flower">	//ALT used to auto SEO, to show a name when image link unavailable, to give accesibility.
+	
+	
+	
+Note: 
+	1. for dummy text use Lorem ipsum, it will help to not fall under copyright issues
+	2. for test don't use any commercial image, collect image from pexels.com or some free platform. Try to use low resulation image
+	
+	
